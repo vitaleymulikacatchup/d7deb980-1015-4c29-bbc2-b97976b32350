@@ -13,7 +13,8 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <NavbarLayoutFloatingOverlay
         logoSrc="/images/logo.svg"
-        logoAlt="DogMemeCoin"
+        logoWidth={100}
+        logoHeight={100}
         navItems={[
           { name: 'Hero', id: 'hero' },
           { name: 'About', id: 'about' },
